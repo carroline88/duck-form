@@ -57,3 +57,24 @@
     color: #ffffff;
     letter-spacing: 1.5px;
  }
+
+ input, select, textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    color: #ffffff;
+    padding: 6px 0;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+ }
+
+ input::placeholder, textarea::placeholder {
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+ }
+
+ input:focus, select:focus, textarea:focus {
+    border-bottom: 1.5px solid #ffffff;
+ }
+
