@@ -6,10 +6,17 @@
  }
 
  body {
-    bakcground-color: #9db4ad;
+    background-color: #9db4ad;
     min-height: 100vh;
     display: flex;
-    justify-cotent: center;
+    justify-content: center;
     align-items: center;
     padding: 20px;
+ }
+
+ .page-container {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
  }
