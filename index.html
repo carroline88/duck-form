@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duck Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+<main class="page-container">
+    <div class="card">
+
+<section class="form-section">
+    <form action="#" method="POST" class="contact-form">
+
+<div class="form-group">
+    <label for="fullname">FULL NAME</label>
+    <input
+    type="text"
+    id="fullname"
+    name="fullname"
+    placeholder="Your Name"
+    required
+    minlenght="2">
+</div>
+
+<div class="form-group">
+    <label for="email">EMAIL</label>
+    <input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Your Email"
+    required>
+</div>
+    </form>
+</section>
+    </div>
+</main>
 </body>
 </html>
