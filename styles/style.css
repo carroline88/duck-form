@@ -36,7 +36,7 @@
     width: 609px;
     height: 100%;
     flex: none;
-    padding: 60px 70px;
+    padding: 65px 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +45,9 @@
  .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
+    max-width: 440px;
+    width: 100%;
  }
 
  .form-group {
@@ -133,9 +135,10 @@ textarea {
 .duck-img {
    position: absolute;
    width: 663px;
+   height: auto;
    max-width: none;
-   left: -170px;
-   bottom: 0px;
+   left: -268px;
+   bottom: 61px;
    pointer-events: none;
    z-index: 10;
 }
