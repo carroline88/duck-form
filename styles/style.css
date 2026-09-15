@@ -123,20 +123,20 @@ textarea {
 
 .image-section {
    background-color: #ffb039;
-   flex: 1;
+   width: 310px;
+   flex: none;
    position: relative;
-   display: flex;
-   align-items: center;
-   justify-content: center;
    overflow: visible;
 }
 
 .duck-img {
-   width: 120%;
-   max-width: 440px;
    position: absolute;
-   left: -25%;
+   width: 380px;
+   max-width: none;
+   left: -85px;
+   bottom: -20px;
    pointer-events: none;
+   z-index: 10px;
 }
 
 @media (max-width: 768px) {
