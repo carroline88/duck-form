@@ -22,56 +22,60 @@
  }
 
  .card {
-    display: flex;
-    width: 954px;
-    height: 594px;
-    border-radius: 0;
-    box-shadow: none;
-    position: relative;
-    overflow: visible;
+  display: flex;
+  width: 954px;
+  height: 594px;
+  border-radius: 0;
+  box-shadow: none;
+  position: relative;
+  overflow: visible;
+  flex-shrink: 0;
  }
 
  .form-section {
-    background-color: #be0909;
-    width: 609px;
-    height: 100%;
-    flex: none;
-    padding: 65px 75px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: #BE0909;
+  width: 609px;
+  height: 594px;
+  flex: 0 0 609px;
+  padding: 60px 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative; 
+  z-index: 1;
  }
 
  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 440px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
  }
 
  .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
  }
 
  label {
-    font-size: 0.65rem;
-    font-weight: 700;
-    color: #ffffff;
-    letter-spacing: 1.2px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
  }
 
  input, select, textarea {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(255,255,255,0.45);
-    color: #ffffff;
-    padding: 4px 0;
-    font-size: 0.85rem;
-    outline: none;
-    width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: #FFFFFF;
+  padding: 5px 0;
+  font-size: 0.95rem;
+  outline: none;
+  width: 100%;
  }
 
  input::placeholder, textarea::placeholder {
@@ -100,23 +104,29 @@ textarea {
 }
 
 .submit-btn {
-   align-self: flex-start;
-   margin-top: 12px;
-   background-color: #4c7d88;
-   color: #ffffff;
-   border: none;
-   padding: 9px 24px;
-   border-radius: 20px;
-   font-size: 0.65rem;
-   font-weight: 700;
-   letter-spacing: 1px;
-   cursor: pointer;
-   box-shadow: none;  
+  position: absolute;
+  left: 164px;               
+  bottom: 26px;              
+  width: 202px;              
+  height: 48px;              
+  background-color: #468189; 
+  border-radius: 40px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
 }
 
 .submit-btn:hover {
-   background-color: #3e6770;
-   transform: translateY(-1px);
+  background-color: #3b6e75;
+  transform: translateY(-1px);
 }
 
 .submit-btn:active {
@@ -124,23 +134,23 @@ textarea {
 }
 
 .image-section {
-   background-color: #ffb039;
-   width: 345px;
-   height: 100%;
-   position: relative;
-   overflow: visible;
-   flex-shrink: 0;
+  background-color: #FFB039;
+  width: 345px;
+  height: 594px;
+  flex: 0 0 345px;       
+  position: relative;
+  overflow: visible;
 }
 
 .duck-img {
-   position: absolute;
-   width: 663px;
-   height: auto;
-   max-width: none;
-   left: -268px;
-   bottom: 61px;
-   pointer-events: none;
-   z-index: 10;
+  position: absolute;
+  width: 630px;
+  max-width: none;
+  height: auto;
+  left: -245px;
+  bottom: -40px; /* Ändra från 0px/positivt till -40px */
+  pointer-events: none;
+  z-index: 10;
 }
 
 @media (max-width: 768px) {
@@ -149,7 +159,7 @@ textarea {
   }
   .image-section {
     min-height: 220px;
-    order: -1; /* Lägg ankan överst på mobilen */
+    order: -1; 
   }
   .duck-img {
     position: static;
