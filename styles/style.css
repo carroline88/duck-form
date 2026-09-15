@@ -32,9 +32,10 @@
  }
 
  .form-section {
-    background-color: #c31d1d;
-    flex: 1.2;
-    padding: 45px 50px;
+    background-color: #b71c1c;
+    width: 400px;
+    flex: none;
+    padding: 36px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
