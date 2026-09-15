@@ -93,3 +93,28 @@ select option {
 textarea {
   resize: none;
 }
+
+.submit-btn {
+   align-self: flex-start;
+   margin-top: 10px;
+   background-color: #4c7d88;
+   color: #ffffff;
+   border: none;
+   padding: 12px 28px;
+   border-radius: 30px;
+   font-size: 0.75rem;
+   font-weight: bold;
+   letter-spacing: 1px;
+   cursor: pointer;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+   transition: background-color 0.2s, transform 0.1s;  
+}
+
+.submit-btn:hover {
+   background-color: #3e6770;
+   transform: translateY(-1px);
+}
+
+.submit-btn:active {
+   transform: translateY(0);
+}
