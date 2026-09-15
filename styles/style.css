@@ -78,3 +78,6 @@
     border-bottom: 1.5px solid #ffffff;
  }
 
+ input:invalid:focus, textarea:invalid:focus {
+  border-bottom-color: #FFB039;
+}
