@@ -81,3 +81,15 @@
  input:invalid:focus, textarea:invalid:focus {
   border-bottom-color: #FFB039;
 }
+
+select {
+  cursor: pointer;
+}
+select option {
+  background-color: #333;
+  color: #FFF;
+}
+
+textarea {
+  resize: none;
+}
