@@ -136,3 +136,17 @@ textarea {
    left: -25%;
    pointer-events: none;
 }
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+  .image-section {
+    min-height: 220px;
+    order: -1; /* Lägg ankan överst på mobilen */
+  }
+  .duck-img {
+    position: static;
+    width: 60%;
+  }
+}
