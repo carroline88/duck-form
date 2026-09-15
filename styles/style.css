@@ -23,8 +23,8 @@
 
  .card {
     display: flex;
-    width: 710px;
-    height: 440px;
+    width: 954px;
+    height: 594px;
     border-radius: 0;
     box-shadow: none;
     position: relative;
@@ -32,10 +32,11 @@
  }
 
  .form-section {
-    background-color: #b71c1c;
-    width: 400px;
+    background-color: #be0909;
+    width: 609px;
+    height: 100%;
     flex: none;
-    padding: 36px 40px;
+    padding: 60px 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,7 +124,7 @@ textarea {
 .image-section {
    background-color: #ffb039;
    width: 345px;
-   height: 594px;
+   height: 100%;
    position: relative;
    overflow: visible;
    flex-shrink: 0;
@@ -131,12 +132,12 @@ textarea {
 
 .duck-img {
    position: absolute;
-   width: 520px;
+   width: 663px;
    max-width: none;
-   left: -130px;
+   left: -170px;
    bottom: 0px;
    pointer-events: none;
-   z-index: 5;
+   z-index: 10;
 }
 
 @media (max-width: 768px) {
