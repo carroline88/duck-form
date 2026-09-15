@@ -118,3 +118,21 @@ textarea {
 .submit-btn:active {
    transform: translateY(0);
 }
+
+.image-section {
+   background-color: #ffb039;
+   flex: 1;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: visible;
+}
+
+.duck-img {
+   width: 120%;
+   max-width: 440px;
+   position: absolute;
+   left: -25%;
+   pointer-events: none;
+}
