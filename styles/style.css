@@ -54,21 +54,21 @@
  }
 
  label {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 700;
     color: #ffffff;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
  }
 
  input, select, textarea {
     background: transparent;
     border: none;
-    border-bottom: 1px solid rgba(255,255,255,0.4);
+    border-bottom: 1px solid rgba(255,255,255,0.45);
     color: #ffffff;
-    padding: 6px 0;
-    font-size: 0.95rem;
+    padding: 4px 0;
+    font-size: 0.85rem;
     outline: none;
-    transition: border-color 0.2s;
+    width: 100%;
  }
 
  input::placeholder, textarea::placeholder {
@@ -98,18 +98,17 @@ textarea {
 
 .submit-btn {
    align-self: flex-start;
-   margin-top: 10px;
+   margin-top: 12px;
    background-color: #4c7d88;
    color: #ffffff;
    border: none;
-   padding: 12px 28px;
-   border-radius: 30px;
-   font-size: 0.75rem;
-   font-weight: bold;
+   padding: 9px 24px;
+   border-radius: 20px;
+   font-size: 0.65rem;
+   font-weight: 700;
    letter-spacing: 1px;
    cursor: pointer;
-   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-   transition: background-color 0.2s, transform 0.1s;  
+   box-shadow: none;  
 }
 
 .submit-btn:hover {
